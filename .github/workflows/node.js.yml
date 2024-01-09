@@ -36,7 +36,7 @@ jobs:
         npm install
 
     - run: |
-        cd server
+        cd server 
         pm2 start app.js --name=ServerAPI
     # - run: pm2 restart ServerAPI
     
